@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mellow Mart - E-Commerce Platform
+
+**Mellow Mart** is a modern, responsive e-commerce application built with **Next.js** and **Tailwind CSS**. The platform allows users to browse through various product categories, add products to their cart, and make purchases. It is designed with a clean, intuitive interface, providing a seamless shopping experience across both desktop and mobile devices.
+
+## Key Features
+
+- **Responsive Design**: Optimized for mobile, tablet, and desktop views using Tailwind CSS.
+- **Product Catalog**: Users can view a wide range of products, each with detailed descriptions, images, and pricing.
+- **Shopping Cart**: Integrated cart functionality that allows users to add and remove items, adjust quantities, and view their total order cost.
+- **Category Filters**: The platform includes various product categories such as Men’s Clothing, Women’s Clothing, Electronics, and Jewelry.
+- **Add to Cart with Real-time Updates**: Utilizes React Context API for global state management to display real-time cart updates.
+- **Hover Effects**: Interactive product images with hover zoom effects to enhance the user experience.
+
+## Technologies Used
+
+- **Frontend**:
+  - **Next.js**: A powerful React framework used for building server-rendered and statically generated web applications.
+  - **Tailwind CSS**: A utility-first CSS framework that enables rapid UI development.
+  - **React Context API**: For managing global state, particularly for the shopping cart functionality.
+- **Deployment**:
+  - **Surge**: A static web publishing platform for deploying the site live.
+
+## How It Works
+
+1. **Browse Products**: Users can navigate through various product categories, each showcasing multiple products with detailed information like title, description, price, and ratings.
+2. **Add to Cart**: Users can easily add products to their shopping cart. The cart dynamically updates as users add or remove items.
+3. **Checkout (Future Implementation)**: Users will soon be able to proceed to checkout and complete their purchase (integration with payment gateways will be added).
+
+## Project Links
+
+- **GitHub Repository**: [https://github.com/rojanagunoori/mellow-mart.git](https://github.com/rojanagunoori/mellow-mart.git)
+- **Live Demo**: [https://mellow-mart.surge.sh/](https://mellow-mart.surge.sh/)
+
+## Future Enhancements
+
+- **User Authentication**: Implementing user sign-in and sign-up functionality to save cart items and order history.
+- **Payment Gateway Integration**: Adding support for online payments using popular services like Stripe or PayPal.
+- **Product Reviews**: Allow users to leave reviews and ratings for products they purchase.
 
 ## Getting Started
 
-First, run the development server:
+To run the project locally:
 
-```bash
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rojanagunoori/mellow-mart.git
+Install dependencies:
+
+
+npm install
+Run the development server:
+
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The application will be accessible at http://localhost:3000.

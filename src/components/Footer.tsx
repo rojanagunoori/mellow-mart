@@ -1,4 +1,5 @@
 "use client"
+import { FaCcVisa, FaCcMastercard, FaCcPaypal } from "react-icons/fa"
 
 const Footer = () => {
     return (
@@ -75,9 +76,9 @@ const Footer = () => {
         <div className="text-center mt-10">
           <h3 className="text-lg font-semibold text-gray-800 hover:text-blue-600 transition">Payment Methods</h3>
           <div className="flex justify-center gap-6 mt-4">
-            <img src="/images/visa.png" alt="Visa" className="h-8 hover:opacity-70 transition" />
-            <img src="/images/mastercard.png" alt="MasterCard" className="h-8 hover:opacity-70 transition" />
-            <img src="/images/paypal.png" alt="PayPal" className="h-8 hover:opacity-70 transition" />
+          <FaCcVisa className="text-4xl text-gray-700 hover:opacity-70 transition" />
+      <FaCcMastercard className="text-4xl text-gray-700 hover:opacity-70 transition" />
+      <FaCcPaypal className="text-4xl text-gray-700 hover:opacity-70 transition" />
           </div>
         </div>
       </footer>
